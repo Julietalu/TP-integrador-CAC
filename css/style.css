@@ -1,0 +1,179 @@
+
+
+.paralosth {
+color: #8f8f8f;
+} 
+
+.headercitonegrito {
+	background-color: #4a4a4a;  
+} 
+
+.logitoytitulo { 
+float:left; 
+}
+
+.menucito { 
+float:right
+}
+
+table{width: 100%;}
+
+/* linckcitos*/
+a:link {
+  color: white; text-decoration: none;
+}
+
+a:visited {
+  color: white; text-decoration: none;
+}
+
+a:hover {
+  color: white; text-decoration: none;
+}
+
+a:active {
+  color: white; text-decoration: none;
+} 
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 3%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.botonverdeoscuro {background-color: #29a744;} 
+
+.buttonv2 {
+  border: 1px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color : transparent;
+}
+
+.buttonv3 {
+  border: none;
+  color: black;
+  background-color: #fec106;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.buttonv4 {
+  border: none;
+  color: white;
+  background-color: #17a2b9;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.buttonv5 {
+  border: none;
+  color: white;
+  background-color: #6a7577;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.buttonv6 {
+  border: none;
+  color: white;
+  background-color: #dc3644;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.containerdecartitas > div {
+  flex: 1; /*grow*/ float:center; margin: 10px;
+}
+
+.container {
+  display: flex; 
+}
+
+.flexrow {
+    display: flex;
+    flex-flow: row wrap;
+}
+ 
+.flexrow.row-7-el > .element  {
+    flex: 0 1 calc(100%/7);
+    max-width: calc(100%/7);
+}
+
+.element {
+  text-align: center;
+}
+.botonverdeoscuro2 {
+  background-color: #29a744;
+
+} 
+#footer {
+  background: #19303c;
+}
+
+#footer a {
+  color: white;
+}
